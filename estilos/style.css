@@ -117,3 +117,39 @@ body {
     border: 3px solid var(--cor-terciaria) ;
     border-radius: 20px;
 }
+
+@media screen and (max-width: 1020px) {
+    /*Imagem e textos */
+    .apresentacao {
+        flex-direction: column-reverse;
+        border: 2px;
+    }
+    .apresentacao__conteudo {
+        align-items: center;
+        width: 800px;
+
+    }
+    /*Tamanho do titulo*/
+    .apresentacao__conteudo__titulo {
+        font-size: 30px;
+        width: 20%;
+        transform: translate(-50%, 5%);
+
+    }
+    /*Tamanho do texto*/
+    .apresentacao__conteudo__texto {
+        font-size: 25px; 
+        width: 43%; 
+    }
+    /*Botões*/
+    .apresentacao__links__link {
+        width: 358px;
+    }
+    .foto_perfil {
+        width: 50%;
+        height: 50%;
+    }
+
+    
+
+}
