@@ -122,7 +122,6 @@ body {
     /*Imagem e textos */
     .apresentacao {
         flex-direction: column-reverse;
-        width: 100vw;
     }
     .apresentacao__conteudo {
         align-items: center;
