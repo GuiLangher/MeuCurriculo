@@ -146,10 +146,11 @@ body {
         width: 358px;
     }
     .foto_perfil {
-        width: 50%;
-        height: 50%;
+        width: 40%;
+        height: 30%;
     }
-
-    
+    body {
+        max-width: 100%;
+    }
 
 }
