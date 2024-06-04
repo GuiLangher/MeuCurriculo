@@ -77,3 +77,33 @@ body {
     font-family: var(--fonte-secundaria);
     font-weight: 400;
 }
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 9%;
+        justify-content: center;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao_certificados {
+        flex-direction: column-reverse;
+        padding: 5%;
+        justify-content: center;
+    }
+
+    .imagem_certificado {
+        width: 14rem;
+        height: 13rem;
+    }
+
+    .apresentacao_certificados {
+        padding: 5% 25%;
+    }
+
+    .apresentacao__conteudo__titulo {
+        padding: 0% 15% 0% 0%;
+    }
+}
